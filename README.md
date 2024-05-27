@@ -14,13 +14,6 @@ Install the dependencies:
 yarn install
 ```
 
-Set the environment variables:
-
-```bash
-cp .env.example .env
-
-# open .env and modify the environment variables (if needed)
-```
 
 
 ## Commands
@@ -94,6 +87,8 @@ JWT_SECRET=thisisasamplesecret
 JWT_ACCESS_EXPIRATION_MINUTES=30
 # Number of days after which a refresh token expires
 JWT_REFRESH_EXPIRATION_DAYS=30
+GOOGLE_CLIENT_ID="abc.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET="abc"
 
 ```
 
