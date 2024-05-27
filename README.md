@@ -32,7 +32,7 @@ yarn start
 
 ## Environment Variables
 
-The environment variables can be found and modified in the `.env` file. They come with these default values:
+These environment variables need to be added in `.env` file. 
 
 ```bash
 # Port number
