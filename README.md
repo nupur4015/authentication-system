@@ -43,32 +43,6 @@ yarn test:watch
 yarn coverage
 ```
 
-Database:
-
-```bash
-# push changes to db
-yarn db:push
-
-# start prisma studio
-yarn db:studio
-```
-
-Linting:
-
-```bash
-# run ESLint
-yarn lint
-
-# fix ESLint errors
-yarn lint:fix
-
-# run prettier
-yarn prettier
-
-# fix prettier errors
-yarn prettier:fix
-```
-
 ## Environment Variables
 
 The environment variables can be found and modified in the `.env` file. They come with these default values:
@@ -112,8 +86,6 @@ src\
 
 To view the list of available APIs and their specifications, run the server and go to `http://localhost:3000/v1/docs` in your browser. This documentation page is automatically generated using the [swagger](https://swagger.io/) definitions written as comments in the route files.
 
-
-```
 
 
 
