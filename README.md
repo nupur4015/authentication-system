@@ -30,19 +30,6 @@ Running in production:
 yarn start
 ```
 
-Testing:
-
-```bash
-# run all tests
-yarn test
-
-# run all tests in watch mode
-yarn test:watch
-
-# run test coverage
-yarn coverage
-```
-
 ## Environment Variables
 
 The environment variables can be found and modified in the `.env` file. They come with these default values:
